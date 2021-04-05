@@ -1,6 +1,6 @@
 def era_convert(year):
     if year not in range(1868, 2021):
-        raise ValueError("This year is not in 1869~2020!!")
+        raise ValueError("This year is not in 1868~2020!!")
 
     era_dict = {
         1868: "Meiji",
